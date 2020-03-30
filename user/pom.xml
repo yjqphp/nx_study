@@ -34,6 +34,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -46,11 +47,18 @@
             </exclusions>
         </dependency>
 
-        <!--引入dubbo环境-->
+        <!--RPC 引入dubbo环境-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>0.2.0</version>
+        </dependency>
+
+        <!-- 熔断降级 https://github.com/Netflix/Hystrix-->
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-core</artifactId>
+            <version>1.5.18</version>
         </dependency>
 
     </dependencies>
