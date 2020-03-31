@@ -1,8 +1,9 @@
 package com.demo.yewu.syetem.init;
 
-import com.alibaba.dubbo.config.annotation.Reference;
+
 import com.demo.platform.product.contract.IProductService;
 import com.demo.platform.user.contract.IUserService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
 
 @Component

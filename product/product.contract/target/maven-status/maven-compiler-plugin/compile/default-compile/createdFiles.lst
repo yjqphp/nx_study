@@ -1,0 +1,2 @@
+com\demo\platform\product\entity\Product.class
+com\demo\platform\product\contract\IProductService.class

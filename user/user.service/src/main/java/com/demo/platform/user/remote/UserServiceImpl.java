@@ -1,8 +1,8 @@
 package com.demo.platform.user.remote;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.demo.platform.user.contract.IUserService;
 import com.demo.platform.user.entity.User;
+import org.apache.dubbo.config.annotation.Service;
 
 import java.util.ArrayList;
 import java.util.List;

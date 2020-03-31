@@ -1,11 +1,11 @@
 package com.demo.yewu.remote;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.demo.platform.product.entity.Product;
 import com.demo.platform.user.entity.User;
 import com.demo.yewu.contract.IBusinessLogicService;
 import com.demo.yewu.entity.ListingItem;
 import com.demo.yewu.syetem.init.RPCClients;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
