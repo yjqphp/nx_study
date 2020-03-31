@@ -1,2 +1,2 @@
-com\demo\platform\user\entity\User.class
-com\demo\platform\user\contract\IUserService.class
+com\example\platform\user\entity\User.class
+com\example\platform\user\contract\IUserService.class

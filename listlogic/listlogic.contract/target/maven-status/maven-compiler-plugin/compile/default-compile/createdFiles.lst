@@ -1,2 +1,2 @@
-com\demo\yewu\contract\IBusinessLogicService.class
-com\demo\yewu\entity\ListingItem.class
+com\example\yewu\contract\IBusinessLogicService.class
+com\example\yewu\entity\ListingItem.class
