@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>user.contract</module>
-        <module>user.service</module>
+        <module>listlogic.service</module>
+        <module>listlogic.contract</module>
     </modules>
     <parent>
         <groupId>com.example</groupId>
@@ -13,14 +13,13 @@
         <artifactId>demo</artifactId>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <groupId>com.example</groupId>
-    <artifactId>user</artifactId>
+    <artifactId>listlogic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user</name>
-    <description>用户模块</description>
+    <name>study-shop-listlogic</name>
+    <description>业务模块</description>
 
     <dependencies>
+
 
     </dependencies>
 
@@ -34,5 +33,3 @@
     </build>
 
 </project>
-
-

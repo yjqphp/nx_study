@@ -12,3 +12,5 @@
 5、配置中心-ctrip Apollo测试
 
 6、熔断降级-Hystrix集成与测试
+
+7、elastic-job集成与学习测试
